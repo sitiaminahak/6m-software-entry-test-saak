@@ -11,5 +11,8 @@ const dog = {
 }
 
 // Task 1: Add code here
-
+dog.breed = "Poodle";
 // Task 2: Add code here
+for (let x in dog) {
+  console.log(dog[x]);
+}
