@@ -27,9 +27,9 @@ p.showAbilities(); // Observe that this function prints "Parenting" and "Role mo
 class Child extends Parent {
 	constructor(){
 	super();
-    }
+    	}
   
-  addNewAbility(ability){
+	addNewAbility(ability){
 	  this.abilities.push(ability)
 	}
 }
